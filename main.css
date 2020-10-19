@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  /*a propriedade de cor de fundo chama-se background
+    height significa altura*
+    no background: linear-gradient a parte do 
+    (329.54deg, #29b6d1 0%, #00c7c7 100%) significa que esses valores são
+    os argumentos
+    os 100vh significa que ocupa os 100 pedaçinhos da tela, ou seja
+    a tela toda. margin significa espaçamento, padding significa
+    preenchimento*/
+  height: 100vh;
+  color: white;
+  background: #EBF2F5;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body,
+input,
+button,
+textarea {
+  font: 400 18px/1 "Nunito", sans-serif;
+}
+
+

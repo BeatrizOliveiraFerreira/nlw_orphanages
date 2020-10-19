@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>happy</title>
+
+    <link rel="icon" href="/images/logo-icon.png" />
+    <link rel="stylesheet" href="/css/main.css" />
+    <link rel="stylesheet" href="/css/animations.css" />
+    <link rel="stylesheet" href="/css/page-landing.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;800&display=swap" rel="stylesheet">  
+  </head>
+  <body>
+    <div id="page-landing">
+      <div id="container">
+        <!-- header é o cabeçalho de alguma coisa 
+        na parte da img src, src é o caminho da imagem e o
+        alt é o conteúdo da imagem, para caso de por exemplo, a imagem também
+        não carregar por algum motivo, nesse caso irá aparecer nome do
+        conteúdo que a imagem exibe
+-->
+        <header>
+          <img 
+          class="animate-up"
+          id="logo" 
+          src="/images/logo.svg" 
+          alt="Logomarca de Happy"/>
+
+          <!-- 
+        div é um container, ou seja, uma caixa genérica na qual
+        eu posso colocar coisas dentro, como por exemplo, 
+        o strong, o strong coloca os textos em negrito
+        p é parágrafo e você pode quebrar linhas
+        ou não, que continuará no site da mesma forma,
+        tudo na mesma linha.
+        Também pode colocar a tag strong dentro da tag p,
+        que fica um ao lado do outro, porque a tag p
+        possui o display block, ou seja,
+        ocupa a linha inteira do site, 
+        diferente da tag strong, que possui o display inline,
+        significa que só ocupa um pedaço pequeno da tela
+    -->
+          <div class="location animate-up">
+            <strong>Rio do Sul</strong>
+            <p>Santa Catarina</p>
+          </div>
+        </header>
+        <!-- 
+      main é o conteúdo principal da página
+      o main ocupa a linha inteira, ou seja
+      ele é um display block, assim como a tag h1, usada para títulos,
+      tem h1 até o h6, e cada um com sua formatação básica
+    -->
+        <main>
+          <h1 class="animate-up">Leve felicidade para o mundo</h1>
+          <section class="visit">
+            <p class="animate-up">Visite orfanatos e mude o dia de muitas crianças</p>
+            <a href="/orphanages" title="Visite orfanatos" class="animate-up">
+              <img
+                src="/images/arrow.svg"
+                alt="Ir para o 
+          mapa"
+              />
+            </a>
+          </section>
+        </main>
+      </div>
+    </div>
+  </body>
+</html>
+
+<!--
+    HTML
+        Hypertext
+            Hipertexto
+        
+        Markup
+            marcação <tags>
+        
+        language
+            linguagem
+-->
